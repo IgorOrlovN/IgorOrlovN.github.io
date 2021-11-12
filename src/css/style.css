@@ -1,0 +1,520 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+nav{
+    width: 100%;
+    height: 60px;
+    background: #344051;
+}
+
+.logo{
+    color: #fff;
+    font-size: 28px;
+    line-height: 60px;
+    padding-left: 388px;
+    float: left;
+    
+}
+
+.menu{
+    float:left;
+    padding-left: 432px;
+}
+
+.menu li{
+    float:left;
+    line-height: 60px;
+    color: #fff;
+    margin-right: 40px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.main{
+    width: 100%;
+    height: calc(100% - 60px);
+    background: url(../img/shadow.png) 0% 104% no-repeat, url(../img/boy.png) 90% 100%/auto 85% no-repeat, url(../img/bg.jpg) center/cover no-repeat;    
+}
+
+.title__container {
+    float:left;
+    margin: 432px 0px 0px 404px;
+    color: #2c384a;
+    text-align: center;
+}
+
+.title__container h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.title__container h4{
+    margin-top: 40px;
+    font-size: 22px;
+    color: #79818d;
+}
+
+.title__container input{
+    height: 40px;
+    text-align: center;
+    border: 2px solid #6d7682;
+    background: none;
+    border-radius: 5px;
+    color: #6d7682;
+    font-size: 13px;
+    padding: 0px 16px;
+    margin: 50px 14px 0px 14px;
+}
+
+.info{
+    width: 100%;
+    height: 720px;
+    background: url(../img/train.jpg) 50% 23% no-repeat, url(../img/photo.jpg) 50% 50% no-repeat;
+    text-align: justify;   
+}
+
+
+.info h3{
+    float:left;
+    margin: 105px 0px 0px 890px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #2c384a;
+}
+
+
+.info p{
+    float:left;
+    margin: 340px 595px 0px 595px;
+    font-size: 13px;
+    color: 3f495a;
+}
+
+.info input{    
+    margin: 37px 880px 0px 890px;
+    padding:3px 3px 3px 25px;
+    border: 2px solid #6d7682;
+    border-radius: 7px;
+    background: url(../img/icon.png) 5% 50% no-repeat;
+    color: #6d7682;
+}
+
+.skils{  
+    width: 100%;
+    height: 520px;
+    background: url(../img/comp.png) 20% 50% no-repeat, url(../img/sign.png) 40% 50% no-repeat, url(../img/rocket.png) 60% 50% no-repeat, url(../img/gramophone.png) 80% 50% no-repeat, url(../img/train.jpg) 50% 33% no-repeat, url(../img/bg2.jpg) center/cover no-repeat;
+
+}
+
+
+.skils h3{
+    float:left;
+    margin: 105px 0px 0px 870px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #2c384a;
+}
+
+.skils #web{
+    float:left;
+    margin: 300px 0px 0px -685px;
+    color:coral;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.skils #razrab{
+    float:left;
+    margin: 300px 0px 0px -310px;
+    color:coral;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.skils #ceo{
+    float:left;
+    margin: 300px 0px 0px 31px;
+    color:coral;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.skils #market{
+    float:left;
+    margin: 300px 0px 0px 243px;
+    color:coral;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.paragraph{
+    float:left;
+}
+
+.paragraph #web2{
+    float:left;
+    color: #000;
+    margin: 17px 0px 0px 318px;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+.paragraph #razrab2{
+    float:left;
+    color: #000;
+    margin: 17px 0px 0px 220px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.paragraph #ceo2{
+    float:left;
+    color: #000;
+    margin: 17px 0px 0px 215px;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+.paragraph #market2{
+    float:left;
+    color: #000;
+    margin: 17px 0px 0px 210px;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+.case{
+    width:100%;
+    height: 1000px;
+    background: url(../img/train.jpg) 50% 5% no-repeat, url(../img/photocase.png) no-repeat 0% 90%;
+}
+
+.case #cs{
+    margin: 105px 0px 0px 905px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #2c384a;
+}
+
+.case #paragraph1{
+    margin: 70px 0px 0px 620px;
+    font-size: 13px;
+    color: 3f495a;
+}
+
+.case #cl{
+    float:left;
+    margin: 650px 0px 0px 390px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #2c384a;
+}
+
+.case #nameproject{
+    margin: 650px 0px 0px 650px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #2c384a;
+}
+
+.case #paragraph2{
+    margin: 10px 0px 0px 650px;
+    color: 3f495a;
+    font-size: 15px;
+}
+
+.case #company{
+    margin: -52px 0px 0px 390px;
+    font-size: 13px;
+    color: 3f495a;
+}
+
+.case #website{
+    margin: 1px 0px 0px 390px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #2c384a;
+}
+
+.case #www{
+    margin: 0px 0px 0px 390px;
+    font-size: 13px;
+    color: 3f495a;
+}
+
+.case input{
+    margin: 10px 0px 0px 390px;
+    border-radius: 7px;
+    padding:5px 30px 5px 30px;
+    background-color: #63b5ae;
+    color: #fff;
+}
+
+.price {
+
+    width:100%;
+    height: 700px;
+    background: url(../img/lineend.png) 49.5% 72% no-repeat;
+}
+
+.price h2{
+    margin: 30px 0px 0px 800px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #2c384a;
+}
+
+.price h3{
+    margin: 55px 0px 0px 500px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #2c384a;
+}
+.price select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 890px;
+    height: 45px;
+    margin: 20px 0px 0px 500px;
+    color: #737373;
+    background: url(../img/arrow.png) 98% 50% no-repeat;
+    background-color:#eeeeee;
+    font-weight: bold;
+    padding: 0px 0px 0px 15px;
+}
+
+.price #time{
+    font-size: 17px;
+    color: #2c384a;
+    margin: 50px 0px 0px 500px;
+    word-spacing: 827px;
+}
+
+.price #many{
+    font-size: 17px;
+    color: #2c384a;
+    margin: 15px 0px 0px 500px;
+    word-spacing: 788px;
+}
+
+.stat {
+    float:left;
+    width: 100%;
+    height: 500px;
+    background: url(../img/cup.png) 80% 50% no-repeat, url(../img/checkmark.png) 60% 50% no-repeat, url(../img/staples.png) 40% 50% no-repeat, url(../img/smile.png) 20% 50% no-repeat, url(../img/train.jpg) 50% 33% no-repeat, url(../img/bg3.jpg) center/cover no-repeat;
+}
+
+.stat h2{
+    margin: 100px 0px 0px 800px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #2c384a;
+}
+
+.stat #sp1{
+    margin: 200px 0px 0px 368px;
+    font-size: 25px;
+    font-weight: 900;
+    color: #2c384a;
+}
+
+.stat #sp2{
+    margin: -26px 0px 0px 730px;
+    font-size: 25px;
+    font-weight: 900;
+    color: #2c384a;
+}
+
+.stat #sp3{
+    margin: -26px 0px 0px 1107px;
+    font-size: 25px;
+    font-weight: 900;
+    color: #2c384a;
+}
+
+.stat #sp4{
+    margin: -26px 0px 0px 1490px;
+    font-size: 25px;
+    font-weight: 900;
+    color: #2c384a;
+}
+
+.stat #sp5{
+    margin: 30px 0px 0px 300px;
+    font-size: 15px;
+    font-weight:600;
+    color: #2c384a;
+    text-transform: uppercase;
+}
+
+.stat #sp6{
+    margin: -16px 0px 0px 705px;
+    font-size: 15px;
+    font-weight:600;
+    color: #2c384a;
+    text-transform: uppercase;
+}
+
+.stat #sp7{
+    margin: -16px 0px 0px 1045px;
+    font-size: 15px;
+    font-weight:600;
+    color: #2c384a;
+    text-transform: uppercase;
+}
+
+.stat #sp8{
+    margin: -16px 0px 0px 1430px;
+    font-size: 15px;
+    font-weight:600;
+    color: #2c384a;
+    text-transform: uppercase;
+}
+
+.feedback {
+    float:left;
+    width: 100%;
+    height: 590px;
+    background: url(../img/pointorange.png) 49% 80% no-repeat, url(../img/point1.png) 50% 80% no-repeat, url(../img/point2.png) 51% 80% no-repeat, url(../img/train.jpg) 50% 28% no-repeat, url(../img/photo2.png) 50% 50% no-repeat;
+}
+
+.feedback h2{
+    margin: 100px 0px 0px 893px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #2c384a;
+}
+
+.feedback p{
+    margin: 230px 610px 0px 610px;
+    text-align: center;
+    color: #2c384a;
+}
+
+.contacts {
+    float:left;
+    width: 100%;
+    height: 800px;
+    background: url(../img/geo.png) 40% 30% no-repeat, url(../img/mail.png) 50% 30% no-repeat, url(../img/phone.png) 60% 30% no-repeat, url(../img/train.jpg) 50% 20% no-repeat, url(../img/bg4.png) center/cover no-repeat; 
+}
+
+.contacts h2{
+    margin: 100px 0px 0px 848px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.contacts p{
+    color: #fff;
+    font-size: 13px;
+}
+
+.contacts #paragraph3{
+    margin: 70px 0px 0px 625px;
+}
+
+.contacts #adres{
+    float:left;
+    margin: 70px 0px 0px 700px;
+    text-align: center;
+}
+
+.contacts #mail{
+    float:left;
+    margin: 70px 57px 0px 57px;
+}
+
+.contacts #telephone{
+    margin: 70px 0px 0px 0px;
+}
+
+.contacts h3{
+    margin: 40px 0px 0px 840px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.contacts #name{
+    width: 315px;
+    height: 25px;
+    margin: 20px 0px 0px 625px;
+    background: rgba(255,255,255, 0.7);
+    padding-left: 5px;    
+}
+
+.contacts #mail2{
+    float: left;
+    width: 300px;
+    height: 25px;
+    margin: -25px 0px 0px 950px;
+    background: rgba(255,255,255, 0.7);
+    padding-left: 5px;
+}
+
+.contacts textarea{
+    float: left;
+    margin: 20px 0px 0px 625px;
+    background: rgba(255,255,255, 0.7);
+    color: #2c384a;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.contacts #send{
+    border: 3px;
+    float:left;
+    margin: 150px 0px 0px -340px;
+    background: rgba(255,255,255,0);
+    padding:7px 10px 7px 10px;
+    border: 2px solid #fff;
+    border-radius: 7px;
+    color: #fff;
+}
+
+.map {
+    float:left;
+    width: 100%;
+    height: 350px;
+    background: url(../img/punkt.png) 50% 50% no-repeat, url(../img/map.jpg) center/cover no-repeat;
+}
+
+.map p{
+    margin: 160px 0px 0px 918px;
+    color: #000;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.end{
+    float:left;
+    width: 100%;
+    height: 93px;
+    background: url(../img/end.jpg) center/cover no-repeat;
+        
+}
+
+.end p{
+    line-height: 93px;
+    color: #fff;
+    font-size: 12px;
+    margin-left: 830px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
