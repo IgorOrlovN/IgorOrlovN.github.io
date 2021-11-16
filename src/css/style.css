@@ -6,6 +6,7 @@ nav{
     width: 100%;
     height: 60px;
     background: #344051;
+    position: fixed;
 }
 
 .logo{
@@ -14,7 +15,14 @@ nav{
     line-height: 60px;
     padding-left: 388px;
     float: left;
-    
+    -webkit-animation: comming 2s ease;
+    -o-animation: comming 2s ease;
+    animation: comming 2s ease;
+}
+
+main{
+    width: 100%;
+    height: 100%;
 }
 
 .menu{
@@ -29,11 +37,15 @@ nav{
     margin-right: 40px;
     font-size: 16px;
     text-transform: uppercase;
+    -webkit-animation: topshift 0.4s ease forwards;
+    -o-animation: topshift 0.4s ease forwards;
+    animation: topshift 0.4s ease forwards;
+    opacity: 0;
 }
 
 .main{
     width: 100%;
-    height: calc(100% - 60px);
+    height: 100%;
     background: url(../img/shadow.png) 0% 104% no-repeat, url(../img/boy.png) 90% 100%/auto 85% no-repeat, url(../img/bg.jpg) center/cover no-repeat;    
 }
 
@@ -42,6 +54,13 @@ nav{
     margin: 432px 0px 0px 404px;
     color: #2c384a;
     text-align: center;
+    opacity: 0;
+    -webkit-animation: titlemove 1s ease forwards;
+    -o-animation: titlemove 1s ease forwards;
+    animation: titlemove 1s ease forwards;
+    -webkit-animation-delay: titlemove 2.4s;
+    -o-animation-delay: titlemove 2.4s;
+    animation-delay: titlemove 2.4s;
 }
 
 .title__container h1{
@@ -71,7 +90,10 @@ nav{
     width: 100%;
     height: 720px;
     background: url(../img/train.jpg) 50% 23% no-repeat, url(../img/photo.jpg) 50% 50% no-repeat;
-    text-align: justify;   
+    text-align: justify;
+    -webkit-animation: infomove 1s ease forwards;
+    -o-animation: infomove 1s ease forwards;
+    animation: infomove 1s ease forwards;
 }
 
 
@@ -306,6 +328,7 @@ nav{
     width: 100%;
     height: 500px;
     background: url(../img/cup.png) 80% 50% no-repeat, url(../img/checkmark.png) 60% 50% no-repeat, url(../img/staples.png) 40% 50% no-repeat, url(../img/smile.png) 20% 50% no-repeat, url(../img/train.jpg) 50% 33% no-repeat, url(../img/bg3.jpg) center/cover no-repeat;
+    background-attachment: fixed;
 }
 
 .stat h2{
@@ -506,15 +529,128 @@ nav{
     margin-left: 830px
 }
 
+.menu li a{
+    transition: all 0.1s;
+    color:white;
+    transform: scale(1);
+    display: inline-block;
+}
 
+.menu li a:visited{
+    color: white;
+}
 
+.menu li a:hover{
+    color: #e88604;
+}
 
+.menu li a:active{
+    transform: scale(1.1)
+}
 
+.title__container input{
+    transition: all 0.2s;
+}
 
+.title__container input:hover{
+    background: #344051;
+    color: white;
+}
 
+.title__container input:active{
+    transform: scale(1.1);
+}
 
+@keyframes comming{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
 
+@keyframes topshift{
+    from{
+        opacity: 1;
+        margin-top: -80px;
+    }
+    to{
+        opacity: 1;
+        margin-top: 0px;
+    }
+}
 
+.menu li:nth-child(2){
+    animation-delay: 0.4s;
+}
+.menu li:nth-child(3){
+    animation-delay: 0.8s;
+}
+.menu li:nth-child(4){
+    animation-delay: 1.2s;
+}
+.menu li:nth-child(5){
+    animation-delay: 1.6s;
+}
+.menu li:nth-child(6){
+    animation-delay: 2.0s;
+}
 
+@keyframes titlemove{
+    from{
+        opacity: 0;
+        margin-left: -500px;
+    }
+    to{
+        opacity: 1;
+        margin-left: 404px;
+    }
+}
 
+@keyframes infomove{
+    from{
+        opacity: 0;
+        margin-right: 2000px;
+    }
+    to{
+        opacity: 1;
+        margin-right: 890px;
+    }
+}
 
+.info input{
+    transition: all 0.2s;
+}
+.info input:hover{
+    background: url(../img/icon.png) 5% 50% no-repeat,#e88604;
+    color: white;
+}
+
+.info input:active{
+    transform: scale(1.1);
+}
+
+.case input{
+    transition: all 0.2s;
+}
+.case input:hover{
+    background: #e88604;
+    color: white;
+}
+
+.case input:active{
+    transform: scale(1.1);
+}
+
+.contacts #send{
+    transition: all 0.2s;
+}
+.contacts #send:hover{
+    background: #e88604;
+    color: white;
+}
+
+.contacts #send:active{
+    transform: scale(1.1);
+}
