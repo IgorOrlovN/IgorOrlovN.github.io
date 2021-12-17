@@ -1,0 +1,266 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+nav{
+    width: 100%;
+    height: 60px;
+    background: #344051;
+    position: fixed;
+    z-index: 10;
+}
+
+.white-btn:visited{
+    color: white;
+}
+
+.logo{
+    color: #fff;
+    font-size: 28px;
+    line-height: 60px;
+    float: left;
+    -webkit-animation: comming 2s ease;
+    -o-animation: comming 2s ease;
+    animation: comming 2s ease;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+}
+
+.menu{
+    float:left;
+}
+
+.menu li{
+    float:left;
+    line-height: 60px;
+    color: #fff;
+    margin-right: 40px;
+    font-size: 14px;
+    text-transform: uppercase;
+    -webkit-animation: topshift 0.4s ease forwards;
+    -o-animation: topshift 0.4s ease forwards;
+    animation: topshift 0.4s ease forwards;
+    opacity: 0;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    background: url(../img/shadow.png) 0% 104% no-repeat, url(../img/boy.png) 90% 100%/auto 85% no-repeat, url(../img/bg.jpg) center/cover no-repeat;    
+}
+
+.title__container {
+    float:left;
+    color: #2c384a;
+    text-align: center;
+    width: 100%;
+    opacity: 0;
+    -webkit-animation: titlemove 1s ease forwards;
+    -o-animation: titlemove 1s ease forwards;
+    animation: titlemove 1s ease forwards;
+    -webkit-animation-delay: titlemove 2.4s;
+    -o-animation-delay: titlemove 2.4s;
+    animation-delay: titlemove 2.4s;
+}
+
+.title__container h1{
+    font-family: Arial,sans-serif;
+    font-size: 72px;
+    font-weight: 600;
+    width:100%;
+}
+
+.title__container h4{
+    margin-top: 40px;
+    font-size: 22px;
+    color: #79818d;
+}
+
+.title__container input{
+    height: 40px;
+    text-align: center;
+    border: 2px solid #6d7682;
+    background: none;
+    border-radius: 5px;
+    color: #6d7682;
+    font-size: 13px;
+    padding: 0px 16px;
+    margin: 50px 14px 0px 14px;
+}
+
+.aboutme{
+    width: 100%;
+    height: 720px;
+    background: url(../img/train.jpg) 50% 17% no-repeat, url(../img/photo.jpg) 50% 47% no-repeat;
+}
+
+.aboutme h3{
+    font-size: 25px;
+    font-weight: bold;
+    color: #2c384a;
+}
+
+.aboutme p{
+    text-align: left;
+    margin: 340px 0px 0px 0px;
+    font-size: 13px;
+    color: #3f495a;;
+}
+
+.aboutme input{    
+    margin: 37px 0px 0px 0px;
+    padding:3px 3px 3px 25px;
+    border: 2px solid #6d7682;
+    border-radius: 7px;
+    background: url(../img/icon.png) 5% 50% no-repeat;
+    color: #6d7682;
+}
+
+.skils{  
+    width: 100%;
+    height: 520px;
+    background: url(../img/comp.png) 20% 50% no-repeat, url(../img/sign.png) 40% 50% no-repeat, url(../img/rocket.png) 60% 50% no-repeat, url(../img/gramophone.png) 80% 50% no-repeat, url(../img/train.jpg) 50% 25% no-repeat, url(../img/bg2.jpg) center/cover no-repeat;
+}
+
+.skils h3{
+    font-size: 25px;
+    font-weight: bold;
+    color: #2c384a;
+}
+
+.bloksskils .row{
+    display: flex;
+    justify-content: space-around;
+}
+
+.bloksskils #col2{
+    color:coral;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.bloksskils #col3{
+    float:left;
+    font-size: 16px;
+    text-align: center;
+    color: #000;
+}
+
+@media (max-width: 991px){
+    .title__container, .title__container h4, title__container input{
+        color: white;
+        position: relative;
+        z-index: 3;
+    }
+    .title__container input{
+        border:2px solid #fff;    
+    }
+    .main{
+        position: relative;
+    }
+    .main::after{
+        content: "";
+        bottom: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+        position: absolute;
+        background: rgba(0,0,0,0.4);
+        z-index: 1;
+    }
+}
+
+.menu li a{
+    transition: all 0.1s;
+    color:white;
+    transform: scale(1);
+    display: inline-block;
+    text-decoration: none;
+}
+
+.menu li a:visited{
+    color: white;
+}
+
+.menu li a:hover{
+    color: #e88604;
+}
+
+.menu li a:active{
+    transform: scale(1.1)
+}
+
+.title__container input{
+    transition: all 0.2s;
+}
+
+.title__container input:hover{
+    background: #344051;
+    color: white;
+}
+
+.title__container input:active{
+    transform: scale(1.1);
+}
+
+@keyframes comming{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes topshift{
+    from{
+        opacity: 1;
+        margin-top: -80px;
+    }
+    to{
+        opacity: 1;
+        margin-top: 0px;
+    }
+}
+
+.menu li:nth-child(2){
+    animation-delay: 0.4s;
+}
+.menu li:nth-child(3){
+    animation-delay: 0.8s;
+}
+.menu li:nth-child(4){
+    animation-delay: 1.2s;
+}
+.menu li:nth-child(5){
+    animation-delay: 1.6s;
+}
+.menu li:nth-child(6){
+    animation-delay: 2.0s;
+}
+
+@keyframes titlemove{
+    from{
+        opacity: 0;
+        margin-left: -500px;
+    }
+    to{
+        opacity: 1;
+        margin-left: 0px;
+    }
+}
+
+@keyframes infomove{
+    from{
+        opacity: 0;
+        margin-right: 2000px;
+    }
+    to{
+        opacity: 1;
+        margin-right: 890px;
+    }
+}
+
