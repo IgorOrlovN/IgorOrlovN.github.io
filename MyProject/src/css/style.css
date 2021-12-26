@@ -122,7 +122,7 @@ main{
 .skils{  
     width: 100%;
     height: 520px;
-    background: url(../img/comp.png) 20% 50% no-repeat, url(../img/sign.png) 40% 50% no-repeat, url(../img/rocket.png) 60% 50% no-repeat, url(../img/gramophone.png) 80% 50% no-repeat, url(../img/train.jpg) 50% 25% no-repeat, url(../img/bg2.jpg) center/cover no-repeat;
+    background:url(../img/train.jpg) 50% 25% no-repeat, url(../img/bg2.jpg) center/cover no-repeat;
 }
 
 .skils h3{
@@ -132,22 +132,165 @@ main{
 }
 
 .bloksskils .row{
+    margin-top: 100px;
     display: flex;
     justify-content: space-around;
 }
 
 .bloksskils #col2{
+    margin-top: 40px;
     color:coral;
     font-weight: bold;
     font-size: 17px;
 }
 
 .bloksskils #col3{
-    float:left;
     font-size: 16px;
     text-align: center;
     color: #000;
 }
+
+.case{
+    width:100%;
+    height: 1100px;
+    background: url(../img/train.jpg) 50% 12% no-repeat, url(../img/photocase.png) 0% 80% no-repeat ; 
+}
+
+.case .container2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.case h3{
+    font-size: 25px;
+    font-weight: bold;
+    color: #2c384a;
+}
+
+.case p{
+    font-size: 13px;
+    color: 3f495a;
+}
+
+.case #col2{
+    font-size: 25px;
+    font-weight: bold;
+    color: #2c384a;
+}
+
+.case #col3{
+    font-size: 13px;
+    color: 3f495a;
+}
+
+.case #col4{
+    font-size: 24px;
+    font-weight: bold;
+    color: #2c384a
+}
+
+.case #col5{
+    color: 3f495a;
+    font-size: 15px;
+}
+
+.case .col-2{
+    margin-top: 670px;
+}
+
+.case .col-xl-9{
+    margin-top: -160px;
+}
+
+.case input{
+    border-radius: 7px;
+    padding:15px 30px 15px 30px;
+    background-color: #63b5ae;
+    color: #fff;
+}
+
+.price {
+    width:100%;
+    height: 1000px;
+    background: url(../img/rectangle.png) 50% 25% no-repeat; 
+}
+
+.price h2{
+    margin-top: 200px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #2c384a;
+}
+
+.price h3{
+    margin-top: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #2c384a;
+}
+.price select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 890px;
+    height: 45px;
+    color: #737373;
+    background: url(../img/arrow.png) 98% 50% no-repeat;
+    background-color:#eeeeee;
+    font-weight: bold;
+    padding: 0px 0px 0px 15px;
+}
+
+.price #time{
+    margin-top: 20px;
+    font-size: 17px;
+    color: #2c384a;
+    word-spacing: 820px;
+}
+
+.price #many{
+    font-size: 17px;
+    color: #2c384a;
+    word-spacing: 780px;
+}
+
+.price input{
+    border-radius: 7px;
+    padding:15px 30px 15px 30px;
+    background-color: #63b5ae;
+    color: #fff;
+}
+
+.stat {
+    width: 100%;
+    height: 500px;
+    background: url(../img/train.jpg) 50% 28% no-repeat, url(../img/bg3.jpg) center/cover no-repeat;
+}
+
+.stat h3{
+    font-size: 25px;
+    font-weight: bold;
+    color: #2c384a;
+}
+
+.bloksstat .row{
+    margin-top: 130px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.bloksstat #col2{
+    margin-top: 40px;
+    color:#2c384a;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.bloksstat #col3{
+    font-size: 15px;
+    text-align: center;
+    color: #2c384a;
+}
+
 
 @media (max-width: 991px){
     .title__container, .title__container h4, title__container input{
@@ -170,6 +313,49 @@ main{
         position: absolute;
         background: rgba(0,0,0,0.4);
         z-index: 1;
+    }
+}
+
+@media (max-width: 770px){
+    .skils{  
+    width: 100%;
+    height: 1000px;
+    background:url(../img/train.jpg) 50% 15% no-repeat, url(../img/bg2.jpg) center/cover no-repeat;
+    }
+    .stat{
+    width: 100%;
+    height: 800px;
+    background: url(../img/train.jpg) 50% 17% no-repeat, url(../img/bg3.jpg) center/cover no-repeat;
+    }
+    .bloksstat #col2{
+    margin-top: 20px;
+    color:#2c384a;
+    font-weight: bold;
+    font-size: 15px;
+}
+}
+
+@media (max-width: 992px){
+    .price select{
+    width: 675px;
+    }
+    .price #time{
+    word-spacing: 600px;
+    }
+    .price #many{
+    word-spacing: 560px;
+    }
+}
+
+@media (max-width: 770px){
+    .price select{
+    width: 350px;
+    }
+    .price #time{
+    word-spacing: 280px;
+    }
+    .price #many{
+    word-spacing: 240px;
     }
 }
 
