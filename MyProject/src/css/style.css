@@ -291,6 +291,109 @@ main{
     color: #2c384a;
 }
 
+.feedback {
+    width: 100%;
+    height: 590px;
+    background: url(../img/pointorange.png) 49% 80% no-repeat, url(../img/point1.png) 50% 80% no-repeat, url(../img/point2.png) 51% 80% no-repeat, url(../img/train.jpg) 50% 24% no-repeat, url(../img/photo2.png) 50% 45% no-repeat;
+}
+
+.feedback h3{
+    font-size: 25px;
+    font-weight: bold;
+    color: #2c384a;
+}
+
+.feedback p{
+    margin-top: 240px;
+    text-align: center;
+    color: #2c384a;
+}
+
+.contacts {
+    color: #fff;
+    width: 100%;
+    height: 800px;
+    background: url(../img/train.jpg) 50% 18% no-repeat, url(../img/bg4.png) center/cover no-repeat; 
+}
+
+.contacts h2{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.blokscontacts .row{
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+}
+
+.blokscontacts p{
+    margin-top: 15px;
+}
+
+.contacts h3{
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.blokscontacts2{
+    display: flex;
+    justify-content: space-around;    
+} 
+
+.blokscontacts2 input{
+    width: 300px;
+    height: 25px;
+    background: rgba(255,255,255, 0.7);
+    padding-left: 5px;    
+} 
+
+.contacts textarea{
+    background: rgba(255,255,255, 0.7);
+    color: #2c384a;
+    padding-left: 5px;
+    padding-top: 5px;
+    margin-left: 10px;
+}
+
+.contacts #send{
+    border: 3px;
+    background: rgba(255,255,255,0);
+    padding:7px 10px 7px 10px;
+    border: 2px solid #fff;
+    border-radius: 7px;
+    color: #fff;
+}
+
+.map {
+    float:left;
+    width: 100%;
+    height: 350px;
+    background: url(../img/punkt.png) 50% 50% no-repeat, url(../img/map.jpg) center/cover no-repeat;
+}
+
+.map p{
+    margin: 160px 0px 0px 918px;
+    color: #000;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.end{
+    float:left;
+    width: 100%;
+    height: 93px;
+    background: url(../img/end.jpg) center/cover no-repeat;
+        
+}
+
+.end p{
+    line-height: 93px;
+    color: #fff;
+    font-size: 12px;
+    margin-left: 830px
+}
 
 @media (max-width: 991px){
     .title__container, .title__container h4, title__container input{
