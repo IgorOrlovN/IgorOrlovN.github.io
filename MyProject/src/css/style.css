@@ -153,12 +153,7 @@ main{
 .case{
     width:100%;
     height: 1100px;
-    background: url(../img/train.jpg) 50% 12% no-repeat, url(../img/photocase.png) 0% 80% no-repeat ; 
-}
-
-.case .container2{
-    display: flex;
-    justify-content: space-around;
+    background: url(../img/train.jpg) 50% 12% no-repeat; 
 }
 
 .case h3{
@@ -190,16 +185,8 @@ main{
 }
 
 .case #col5{
-    color: 3f495a;
+    color: #3f495a;
     font-size: 15px;
-}
-
-.case .col-2{
-    margin-top: 670px;
-}
-
-.case .col-xl-9{
-    margin-top: -160px;
 }
 
 .case input{
@@ -207,6 +194,18 @@ main{
     padding:15px 30px 15px 30px;
     background-color: #63b5ae;
     color: #fff;
+}
+
+.case img{
+    margin-left: -335px;
+}
+
+.case .col-xl-9{
+    margin-top: -200px;
+}
+
+.case .col-xl-2{
+    margin-top: -200px;
 }
 
 .price {
@@ -321,11 +320,11 @@ main{
     font-weight: bold;
 }
 
-.blokscontacts .row{
-    color: #fff;
+.blokscontacts{
     display: flex;
-    justify-content: space-around;
-}
+    justify-content: space-around;    
+} 
+
 
 .blokscontacts p{
     margin-top: 15px;
@@ -395,6 +394,18 @@ main{
     margin-left: 830px
 }
 
+@media (max-width: 520px){
+    .case input{
+    margin-top: 200px;
+    }
+    .case .col-xl-9{
+    margin-top: -380px;
+}
+    .case{
+    height: 1150px;
+}
+}
+
 @media (max-width: 991px){
     .title__container, .title__container h4, title__container input{
         color: white;
@@ -461,6 +472,13 @@ main{
     word-spacing: 240px;
     }
 }
+
+@media (max-width: 1400px){
+    .case img{
+    margin-left: -390px;
+}
+}
+
 
 .menu li a{
     transition: all 0.1s;
