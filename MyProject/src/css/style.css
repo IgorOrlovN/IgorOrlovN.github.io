@@ -353,7 +353,7 @@ main{
     color: #2c384a;
     padding-left: 5px;
     padding-top: 5px;
-    margin-left: 10px;
+    margin-left: 17px;
 }
 
 .contacts #send{
@@ -397,6 +397,7 @@ main{
 @media (max-width: 520px){
     .case input{
     margin-top: 200px;
+    margin-left: 100px;
     }
     .case .col-xl-9{
     margin-top: -380px;
@@ -404,6 +405,9 @@ main{
     .case{
     height: 1150px;
 }
+    .feedback{
+    background:  url(../img/pointorange.png) 46% 85% no-repeat, url(../img/point1.png) 50% 85% no-repeat, url(../img/point2.png) 54% 85% no-repeat, url(../img/train.jpg) 50% 24% no-repeat, url(../img/photo2.png) 50% 45% no-repeat;  
+    }
 }
 
 @media (max-width: 991px){
@@ -446,7 +450,15 @@ main{
     color:#2c384a;
     font-weight: bold;
     font-size: 15px;
+    }
+    .contacts #inputmail{
+        margin-top: 10px;
+    }
 }
+
+@media (max-width: 720px){
+    .contacts textarea{
+    }
 }
 
 @media (max-width: 992px){
