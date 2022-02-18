@@ -10,10 +10,12 @@ let arrTime = [
     [2,2,1],
 ];
 
-function calculator()
-{
     let price = 0;
     let time = 0;
+
+function calculator()
+{
+
     if (view==1){
         price = arrPrice[0][0];
         time = arrTime[0][0];
@@ -27,15 +29,15 @@ function calculator()
         time = arrTime[0][2];
     }
     if (des==1){
-        price = prise + arrPrice[1][0];
+        price = price + arrPrice[1][0];
         time = time + arrTime[1][0];
     }
     if (des==2){
-        price = prise + arrPrice[1][1];
+        price = price + arrPrice[1][1];
         time = time + arrTime[1][1];
     }
     if (des==3){
-        price = prise + arrPrice[1][2];
+        price = price + arrPrice[1][2];
         time = time + arrTime[1][2];
     }
     if (adap==1){
@@ -51,7 +53,7 @@ function calculator()
         time = time + arrTime[2][2];
     }
         
-    console.log("Цена: " + price + "Сроки: " + time + " недели");
+    console.log("Цена: " + price + " Сроки: " + time + " недели");
     
 }
 
@@ -59,4 +61,6 @@ let view = prompt("Выберите тип сайта, для этого вве�
 let des = prompt("Выберите дизайн сайта, для этого введите в поле соответствующие число \n 1 - Рисованный \n 2 - Плоский \n 3 - Материальный");
 let adap= prompt("Выберите адаптивность, для этого введите в поле соответствующие число \n 1 - Кроссплатформенный \n 2 - Смартфон \n 3 - Персональный компьютер");
 
-alert(calculator());
+calculator();
+
+alert("Цена: " + price + "Сроки: " + time + " недели");
